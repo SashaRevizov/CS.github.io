@@ -1,0 +1,329 @@
+$white: #ffffff
+$blue: #11749e
+$gray: #808080
+$black: #000000
+body
+	font-family: 'Open Sans', sans-serif
+img
+	max-width: 100%
+
+.main
+	background: url("../img/main-bg.jpg") no-repeat center
+	background-size: cover
+	min-height: 938px
+	.logo
+		margin-top: 15px
+	&-nav
+		height: 110px
+		border-bottom: 1px solid $gray
+		&-menu
+			display: flex
+			list-style: none
+			margin-top: 35px
+			li
+				margin-left: 50px
+				a
+					text-decoration: none
+					font-size: 20px
+					color: $white
+					&::after
+						content: ""
+						position: relative
+						display: block
+						width: 100%
+						height: 5px
+						background-color: $blue
+						top: 39px
+						transition: all 0.3s
+						transform: scale(0)
+					&:hover
+						opacity: 0.6
+						&:after
+							transform: scale(1)
+.header
+	margin-top: 200px
+	text-align: center
+	h1
+		color: $white
+		font-size: 153px
+		text-transform: uppercase
+	span
+		padding-left: 10px
+		font-size: 153px
+		color: #2e85aa
+		font-size: 25px
+		text-transform: uppercase
+		letter-spacing: 19px
+		font-weight: 500
+
+.scroll-down
+	margin: 250px auto 0 auto
+	border: none
+
+.features
+	background-color: $blue
+	min-height: 938px
+	padding: 100px
+	text-align: center
+	&-block
+		margin-top: 145px
+		background-color: #2e85aa
+		border-radius: 200px
+		width: 150px
+		height: 150px
+		padding: 60px
+		margin: 145px auto 0 auto
+	h4
+		margin-top: 20px
+		margin-bottom: 30px
+		color: $white
+		font-size: 18px
+	p
+		font-size: 15px
+		color: $white
+	h2
+		font-size: 38px
+		color: $white
+		text-transform: uppercase
+		margin-top: 75px
+.bg-span
+	position: absolute
+	opacity: 0.18
+	color: $white
+	font-size: 247px
+	font-weight: 600
+	line-height: 211px
+	text-transform: uppercase
+	
+
+.work
+	&-1,&-2
+		display: flex
+	h2
+			font-size: 25
+			font-weight: 500
+			line-height: 36px
+			margin-bottom: 50px
+	.block-one
+		width: 50%
+		background-color: #222222
+		height: 400px
+		padding: 100px
+		color: white
+		
+	.block-two
+		height: 400px
+		width: 50%
+		background: url("../img/pc1.jpg")
+		background-size: cover
+	.block-three
+		
+		height: 400px
+		width: 50%
+		background: url("../img/pc2.jpg")
+		background-size: cover
+	
+	.block-four
+		background-color: #f3f3f3
+		color: black
+		width: 50%
+		height: 400px
+		padding: 100px
+		
+.blog
+	padding: 100px
+	min-height: 1000px
+	text-align: center
+	h2
+		font-size: 38px
+		text-transform: uppercase
+		line-height: 46px
+		font-weight: 500
+		color: #222222
+		margin-top: 80px
+	span
+		color: #222222
+		
+		
+	h3
+		margin-top: 60px	
+		font-size: 30px
+.people
+	text-align: center
+	margin-top: 100px
+	h3
+		color: #222222
+		font-size: 30px
+		font-weight: 400
+		line-height: 37px
+		margin-bottom: 100px
+	h4
+		margin-top: 20px
+		margin-bottom: 30px
+		color: $blue
+		font-size: 18px
+		font-weight: 500
+		text-transform: uppercase
+.blue-block
+	padding: 100px
+	min-height: 350px
+	background-color: $blue
+	p
+		color: $white
+		font-size: 15px
+.cellphone
+	min-height: 938px
+	background: url("../img/bg.jpg") no-repeat
+	background-size: cover
+	padding: 100px
+	h3
+		margin-top: 120px
+		font-size: 25px
+		color: $white
+		font-weight: 500
+		text-transform: uppercase
+	p
+		color: $white
+		margin-top: 40px
+	.span-block,.span-block-2,.span-block-3
+		display: block
+		height: 40px
+		padding: 10px
+		background-color: $blue
+		font-size: 15px
+		color: $white
+		font-weight: 500
+		text-transform: uppercase
+		margin-top: 30px
+	.span-block
+		width: 370px
+	.span-block-2
+		width: 400px
+	.span-block-3
+		width: 430px
+.team
+	min-height: 938px
+	padding: 100px
+	text-align: center
+
+	h2
+		font-size: 38px
+		text-transform: uppercase
+		line-height: 46px
+		font-weight: 500
+		color: #222222
+		margin-top: 80px
+	span
+		color: #222222
+	h3
+		margin-top: 60px
+		font-size: 30px
+		margin-bottom: 50px
+	.names
+		padding: 10px
+		position: absolute
+		top: 90%
+		text-align: center
+		width: 75%
+		height: 110px
+		background-color: #fff
+		margin-left: 5%
+		h4
+			color: $blue
+.contact
+	min-height: 838px
+	background: url("../img/contact-bg.jpg") no-repeat
+	background-size: cover
+	padding: 100px
+	text-align: center
+	h2
+		font-size: 38px
+		text-transform: uppercase
+		line-height: 46px
+		font-weight: 500
+		color: #ffffff
+		margin-top: 90px
+
+	span
+		color: #ffffff
+	.input-group
+		border: 1px solid white
+		background-color: transparent
+		height: 45px
+		width: 352px
+		margin-right: 20px
+		margin-top: 90px
+		padding-left: 20px
+		color: white
+	.none
+		margin-right: 0
+	.text-area-block
+		display: block
+		width: 100%
+		height: 250px
+		padding: 20px
+		resize: none
+	.submit-btn
+		border: none
+		display: block
+		width: 220px
+		height: 60px
+		margin: auto
+		margin-top: 50px
+		background-color: #11749e
+		color: white
+		font-size: 20px
+.footer
+	background-color: $black
+	height: 100px
+	opacity: 0.9
+	padding-top: 30px
+	color: white
+
+@media (max-width: 990px)
+	.main
+		&-nav
+			&-menu
+				padding-left: 0
+				li
+					margin-left: 30px
+@media (max-width: 765px)
+	.main
+		&-nav
+			&-menu
+				li
+					margin-left: 15px
+					a
+						font-size: 15px
+						&::after
+							display: none
+	.header
+		h1
+			font-size: 100px
+	.bg-span
+		margin-left: 125px
+	.work
+		h2
+			font-size: 20
+		.block-one
+			padding: 30px
+		.block-four
+			padding: 30px
+	.blog,.team
+		h2
+			margin-left: 130px
+		span
+			margin-left: 160px
+		h3
+			margin-top: 100px
+	.cellphone
+		img
+			margin: 30px 
+
+	.team
+		img
+			margin-bottom: 40px
+		.names
+			top: 75%
+			width: 200px
+			margin-left: 130px
